@@ -73,9 +73,59 @@ div {
 .column.large {
   width: 630px;
 }
+.main-story .image-text {
+  background-image: url(./images/img-story-main.png);
+  width: 630px;
+  height:300px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+.image-text {
+  color: white;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+.story .fall-cancelled-image {
+  background-image: url(./images/FallSeason.png);
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.story .hipstercamera-image-text {
+  background-image: url(./images/HipsterCameraMan.png);
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+
+
 
 .column.medium {
   width: 300px;
+}
+.story .cat-ceo-image-text {
+background-image: url(./images/catCEO.png);
+height: 300px;
+margin-top: 15px;
+font-family: Georgia;
+font-weight: bold;
+font-size: 30px;
+color: white;
+text-align: center;
 }
 
 .column.small {

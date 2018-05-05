@@ -38,7 +38,7 @@ nav {
   padding-right: 40px;
 }
 
-.nav span {
+nav span {
   display: inline-block;
   padding: 20px 20px;
   align-content: space-between;
@@ -79,25 +79,29 @@ div {
 .stories {
   display: flex;
   justify-content: space-between;
-  align-content: flex-start;
+  align-content: center;
   margin-top: 17px;
 }
 
 .story {
   display: flex;
   flex-direction: column;
-  align-content: flex-start;
+  align-content: center;
+  justify-content: center;
   flex-wrap: wrap;
   width: 300px;
 }
 
 .main-story .image-text {
   background-image: url(./images/img-story-main.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 630px;
   height:300px;
   margin-top: 0;
   font-size: 40px;
-  text-align: left;
+  text-align: center;
 }
 
 .image-text {
@@ -105,10 +109,14 @@ div {
   height: 300px;
   font-family: Georgia;
   font-weight: bold;
+  text-align: center;
 }
 
 .story .fall-cancelled-image {
   background-image: url(./images/FallSeason.png);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   height: 300px;
   margin-top: 15px;
   font-family: Georgia;
@@ -120,6 +128,9 @@ div {
 
 .story .hipstercamera-image-text {
   background-image: url(./images/HipsterCameraMan.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 300px;
   margin-top: 15px;
   font-family: Georgia;
@@ -130,10 +141,14 @@ div {
 }
 
 .column.medium {
+  display: flex;
   width: 300px;
 }
 .story .cat-ceo-image-text {
 background-image: url(./images/catCEO.png);
+display: flex;
+flex-direction: column;
+justify-content: center;
 height: 300px;
 margin-top: 15px;
 font-family: Georgia;
@@ -141,8 +156,71 @@ font-weight: bold;
 font-size: 30px;
 color: white;
 text-align: center;
+
 }
 
 .column.small {
   width: 240px;
+}
+
+.newsbites h3 {
+  display: block;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.newsbites .bite {
+  display: flex;
+  flex-direction: column;
+  background: WhiteSmoke;
+  font-family: verdana;
+  font-size: 12px;
+  color: dimgray;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 10px 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerinfo{
+  display: block;
+}
+
+footer .name {
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 25px;
+  flex-direction: column;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+footer .copywright {
+  display: block;
 }
